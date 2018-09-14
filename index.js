@@ -37,7 +37,7 @@ function  prependDriver(name) {
 prependDriver("Nathan");
 
 function  removeLastDriver() {
- const allDrivers = drivers.slice(-1) ;
-  return allDrivers ;
+ const fewDrivers = drivers.slice(-1) ;
+  return fewDrivers ;
 }
 removeLastDriver()
