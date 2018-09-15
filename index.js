@@ -40,8 +40,10 @@ function  removeLastDriver() {
  const fewDrivers = drivers.slice(-1) ;
   return fewDrivers ;
 }
-removeLastDriver()
+removeLastDriver();
 
-
-
-
+function  removeFirstDriver() {
+ var againFewDrivers = drivers.slice();
+  return againFewDrivers ;
+}
+removeFirstDriver();
